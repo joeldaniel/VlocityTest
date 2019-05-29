@@ -1,7 +1,7 @@
 package pages.actions;
 
 import base.Testbase;
-import pages.locators.Homepagelocators;
+
 import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
 import org.testng.Assert;
 
