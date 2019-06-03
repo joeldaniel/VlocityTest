@@ -6,7 +6,8 @@ import java.util.Map;
 import com.aventstack.extentreports.Status;
 
 import base.Testbase;
-import io.restassured.RestAssured;
+//import io.restassured.RestAssured;
+//import static io.restassured.RestAssured.given;
 import static io.restassured.RestAssured.given;
 
 public class Homepagehyperlinks extends Testbase{

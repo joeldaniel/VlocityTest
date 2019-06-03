@@ -5,6 +5,7 @@
 	<groupId>Test</groupId>
 	<artifactId>VlocityHomeTest</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>1.7</maven.compiler.source>
@@ -31,6 +32,17 @@
 						</suiteXmlFiles>
 					</configuration>
 				</plugin>
+				<plugin>
+					<artifactId>maven-assembly-plugin</artifactId>
+					<version>2.5.3</version>
+					<configuration>
+						<descriptors>
+							<descriptor>src/test/resources/assembly/crunchify.xml</descriptor>
+						</descriptors>
+						<tarLongFileMode>posix</tarLongFileMode>
+					</configuration>
+				</plugin>
+
 			</plugins>
 		</pluginManagement>
 	</build>
@@ -50,7 +62,7 @@
 		<dependency>
 			<groupId>io.rest-assured</groupId>
 			<artifactId>rest-assured</artifactId>
-			<version>3.3.0</version>
+			<version>3.0.0</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
