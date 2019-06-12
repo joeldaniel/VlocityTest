@@ -2,6 +2,7 @@ package testcases;
 
 import java.util.Hashtable;
 
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import base.Testbase;

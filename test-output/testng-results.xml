@@ -1,39 +1,237 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="105446" started-at="2019-05-29T06:37:49Z" finished-at="2019-05-29T06:39:35Z">
+  <suite name="Default suite" duration-ms="25110" started-at="2019-06-12T09:54:03Z" finished-at="2019-06-12T09:54:28Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="105446" started-at="2019-05-29T06:37:49Z" finished-at="2019-05-29T06:39:35Z">
+    <test name="Default test" duration-ms="25110" started-at="2019-06-12T09:54:03Z" finished-at="2019-06-12T09:54:28Z">
       <class name="testcases.VerifyHyperlinks">
-        <test-method status="PASS" signature="Setup()[pri:0, instance:testcases.VerifyHyperlinks@727eb8cb]" name="Setup" is-config="true" duration-ms="5060" started-at="2019-05-28T23:37:44Z" finished-at="2019-05-28T23:37:49Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:testcases.VerifyHyperlinks@7f0eb4b4]" name="Setup" is-config="true" duration-ms="5763" started-at="2019-06-12T02:53:57Z" finished-at="2019-06-12T02:54:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="verifyFeaturedLanguages(java.util.Hashtable)[pri:0, instance:testcases.VerifyHyperlinks@727eb8cb]" name="verifyFeaturedLanguages" duration-ms="105406" started-at="2019-05-28T23:37:49Z" data-provider="dp" finished-at="2019-05-28T23:39:35Z">
+        <test-method status="PASS" signature="verifyFeaturedLanguages(java.util.Hashtable)[pri:0, instance:testcases.VerifyHyperlinks@7f0eb4b4]" name="verifyFeaturedLanguages" duration-ms="3526" started-at="2019-06-12T02:54:03Z" data-provider="dp" finished-at="2019-06-12T02:54:07Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{Português=pt, English=en, Deutsch=de, Русский=ru, Italiano=it, Français=fr, Español=es, 中文=zh, Polski=pl, 日本語=ja}]]>
+                <![CDATA[{Language=English, Code=en}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyFeaturedLanguages -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.VerifyHyperlinks@727eb8cb]" name="getResult" is-config="true" duration-ms="4" started-at="2019-05-28T23:39:35Z" finished-at="2019-05-28T23:39:35Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.VerifyHyperlinks@7f0eb4b4]" name="getResult" is-config="true" duration-ms="3" started-at="2019-06-12T02:54:07Z" finished-at="2019-06-12T02:54:07Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyFeaturedLanguages status=SUCCESS method=VerifyHyperlinks.verifyFeaturedLanguages(java.util.Hashtable)[pri:0, instance:testcases.VerifyHyperlinks@727eb8cb] output={null}]]]>
+                <![CDATA[[TestResult name=verifyFeaturedLanguages status=SUCCESS method=VerifyHyperlinks.verifyFeaturedLanguages(java.util.Hashtable)[pri:0, instance:testcases.VerifyHyperlinks@7f0eb4b4] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:testcases.VerifyHyperlinks@727eb8cb]" name="TearDown" is-config="true" duration-ms="996" started-at="2019-05-28T23:39:35Z" finished-at="2019-05-28T23:39:36Z">
+        <test-method status="PASS" signature="verifyFeaturedLanguages(java.util.Hashtable)[pri:0, instance:testcases.VerifyHyperlinks@7f0eb4b4]" name="verifyFeaturedLanguages" duration-ms="2375" started-at="2019-06-12T02:54:07Z" data-provider="dp" finished-at="2019-06-12T02:54:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Language=Español, Code=es}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFeaturedLanguages -->
+        <test-method status="PASS" signature="verifyFeaturedLanguages(java.util.Hashtable)[pri:0, instance:testcases.VerifyHyperlinks@7f0eb4b4]" name="verifyFeaturedLanguages" duration-ms="2370" started-at="2019-06-12T02:54:09Z" data-provider="dp" finished-at="2019-06-12T02:54:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Language=日本語, Code=ja}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFeaturedLanguages -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.VerifyHyperlinks@7f0eb4b4]" name="getResult" is-config="true" duration-ms="0" started-at="2019-06-12T02:54:09Z" finished-at="2019-06-12T02:54:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFeaturedLanguages status=SUCCESS method=VerifyHyperlinks.verifyFeaturedLanguages(java.util.Hashtable)[pri:0, instance:testcases.VerifyHyperlinks@7f0eb4b4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.VerifyHyperlinks@7f0eb4b4]" name="getResult" is-config="true" duration-ms="1" started-at="2019-06-12T02:54:11Z" finished-at="2019-06-12T02:54:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFeaturedLanguages status=SUCCESS method=VerifyHyperlinks.verifyFeaturedLanguages(java.util.Hashtable)[pri:0, instance:testcases.VerifyHyperlinks@7f0eb4b4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="verifyFeaturedLanguages(java.util.Hashtable)[pri:0, instance:testcases.VerifyHyperlinks@7f0eb4b4]" name="verifyFeaturedLanguages" duration-ms="2613" started-at="2019-06-12T02:54:11Z" data-provider="dp" finished-at="2019-06-12T02:54:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Language=Deutsch, Code=de}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFeaturedLanguages -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.VerifyHyperlinks@7f0eb4b4]" name="getResult" is-config="true" duration-ms="0" started-at="2019-06-12T02:54:14Z" finished-at="2019-06-12T02:54:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFeaturedLanguages status=SUCCESS method=VerifyHyperlinks.verifyFeaturedLanguages(java.util.Hashtable)[pri:0, instance:testcases.VerifyHyperlinks@7f0eb4b4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="verifyFeaturedLanguages(java.util.Hashtable)[pri:0, instance:testcases.VerifyHyperlinks@7f0eb4b4]" name="verifyFeaturedLanguages" duration-ms="2371" started-at="2019-06-12T02:54:14Z" data-provider="dp" finished-at="2019-06-12T02:54:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Language=Русский, Code=ru}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFeaturedLanguages -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.VerifyHyperlinks@7f0eb4b4]" name="getResult" is-config="true" duration-ms="2" started-at="2019-06-12T02:54:16Z" finished-at="2019-06-12T02:54:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFeaturedLanguages status=SUCCESS method=VerifyHyperlinks.verifyFeaturedLanguages(java.util.Hashtable)[pri:0, instance:testcases.VerifyHyperlinks@7f0eb4b4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="verifyFeaturedLanguages(java.util.Hashtable)[pri:0, instance:testcases.VerifyHyperlinks@7f0eb4b4]" name="verifyFeaturedLanguages" duration-ms="2364" started-at="2019-06-12T02:54:16Z" data-provider="dp" finished-at="2019-06-12T02:54:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Language=Français, Code=fr}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFeaturedLanguages -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.VerifyHyperlinks@7f0eb4b4]" name="getResult" is-config="true" duration-ms="0" started-at="2019-06-12T02:54:19Z" finished-at="2019-06-12T02:54:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFeaturedLanguages status=SUCCESS method=VerifyHyperlinks.verifyFeaturedLanguages(java.util.Hashtable)[pri:0, instance:testcases.VerifyHyperlinks@7f0eb4b4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="verifyFeaturedLanguages(java.util.Hashtable)[pri:0, instance:testcases.VerifyHyperlinks@7f0eb4b4]" name="verifyFeaturedLanguages" duration-ms="2354" started-at="2019-06-12T02:54:19Z" data-provider="dp" finished-at="2019-06-12T02:54:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Language=Italiano, Code=it}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFeaturedLanguages -->
+        <test-method status="PASS" signature="verifyFeaturedLanguages(java.util.Hashtable)[pri:0, instance:testcases.VerifyHyperlinks@7f0eb4b4]" name="verifyFeaturedLanguages" duration-ms="2360" started-at="2019-06-12T02:54:21Z" data-provider="dp" finished-at="2019-06-12T02:54:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Language=中文, Code=zh}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFeaturedLanguages -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.VerifyHyperlinks@7f0eb4b4]" name="getResult" is-config="true" duration-ms="0" started-at="2019-06-12T02:54:21Z" finished-at="2019-06-12T02:54:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFeaturedLanguages status=SUCCESS method=VerifyHyperlinks.verifyFeaturedLanguages(java.util.Hashtable)[pri:0, instance:testcases.VerifyHyperlinks@7f0eb4b4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.VerifyHyperlinks@7f0eb4b4]" name="getResult" is-config="true" duration-ms="0" started-at="2019-06-12T02:54:24Z" finished-at="2019-06-12T02:54:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFeaturedLanguages status=SUCCESS method=VerifyHyperlinks.verifyFeaturedLanguages(java.util.Hashtable)[pri:0, instance:testcases.VerifyHyperlinks@7f0eb4b4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="verifyFeaturedLanguages(java.util.Hashtable)[pri:0, instance:testcases.VerifyHyperlinks@7f0eb4b4]" name="verifyFeaturedLanguages" duration-ms="2357" started-at="2019-06-12T02:54:24Z" data-provider="dp" finished-at="2019-06-12T02:54:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Language=Português, Code=pt}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFeaturedLanguages -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.VerifyHyperlinks@7f0eb4b4]" name="getResult" is-config="true" duration-ms="0" started-at="2019-06-12T02:54:26Z" finished-at="2019-06-12T02:54:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFeaturedLanguages status=SUCCESS method=VerifyHyperlinks.verifyFeaturedLanguages(java.util.Hashtable)[pri:0, instance:testcases.VerifyHyperlinks@7f0eb4b4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="verifyFeaturedLanguages(java.util.Hashtable)[pri:0, instance:testcases.VerifyHyperlinks@7f0eb4b4]" name="verifyFeaturedLanguages" duration-ms="2372" started-at="2019-06-12T02:54:26Z" data-provider="dp" finished-at="2019-06-12T02:54:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Language=Polski, Code=pl}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFeaturedLanguages -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.VerifyHyperlinks@7f0eb4b4]" name="getResult" is-config="true" duration-ms="0" started-at="2019-06-12T02:54:28Z" finished-at="2019-06-12T02:54:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFeaturedLanguages status=SUCCESS method=VerifyHyperlinks.verifyFeaturedLanguages(java.util.Hashtable)[pri:0, instance:testcases.VerifyHyperlinks@7f0eb4b4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:testcases.VerifyHyperlinks@7f0eb4b4]" name="TearDown" is-config="true" duration-ms="939" started-at="2019-06-12T02:54:28Z" finished-at="2019-06-12T02:54:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->

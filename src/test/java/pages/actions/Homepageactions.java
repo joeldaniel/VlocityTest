@@ -30,16 +30,20 @@ public class Homepageactions extends Testbase{
 	}*/
 	
 	public void VerifyLanguages(Hashtable<String, String> data) {
-		// TODO Auto-generated method stub
-		for(Map.Entry entry: data.entrySet()){
-           try {
-        	   Assert.assertEquals(entry.getKey(), driver.findElement(By.xpath("//*[@id=\"js-link-box-"+entry.getValue()+"\"]/strong")).getText());
-        	   test.log(Status.PASS, "Language : "+entry.getKey()+" Verified Sucessfully" );
-           }catch(AssertionError e) {
-        	   test.log(Status.FAIL, "Language : "+entry.getKey()+" verification failed" );
-           }
-            
-        }
+		
+		
+		//for(String key:data.keySet()) {
+			System.out.println(data.get("Language"));
+			try {
+				Assert.assertEquals(data.get("Language"), driver.findElement(By.xpath("//*[@id=\"js-link-box-"+data.get("Code")+"\"]/strong")).getText());
+				 test.log(Status.PASS, "Language : "+data.get("Language")+" Verified Sucessfully" );
+			}
+		catch(AssertionError e) {
+     	   test.log(Status.FAIL, "Language : "+data.get("Language")+" verification failed" );
+		}
+			
+		//}
+		
 
 		
 
