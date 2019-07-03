@@ -100,7 +100,7 @@ public class Testbase {
 				driver.manage().timeouts().implicitlyWait(TIMEOUT, TimeUnit.SECONDS);
 				driver.manage().timeouts().pageLoadTimeout(PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
 				wait = new WebDriverWait(driver, 5);
-				log.debug("Chrome Launched !!!");
+				log.debug("Chrome Launched!");
 				
 
 			}
